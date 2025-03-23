@@ -2,7 +2,8 @@ header{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: rgb(76, 76, 139);
+    background: linear-gradient(135deg, #242438, #3a3a5f);
+    height: 64px;
 }
 
 ul{
@@ -13,6 +14,10 @@ ul{
     
 }
 li{
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 600;
+}
+li a{
+    text-decoration: none;
+    color:black;
 }

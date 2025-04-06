@@ -1,0 +1,62 @@
+
+  .planer {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+    color:black
+  }
+  
+  .heading {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .heading input {
+    flex: 1;
+    padding: 10px;
+    border: 2px solid #4CAF50;
+    border-radius: 10px;
+    outline: none;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .heading input:focus {
+    border-color: #388E3C;
+  }
+  
+  .heading button {
+    background: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .heading button:hover {
+    background: #388E3C;
+  }
+  
+  .tasks {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+  }
+  
+  .tasks .task {
+    background: #f4f4f4;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+  }
+  
+  .tasks .task:hover {
+    background: #ffffff;
+  }

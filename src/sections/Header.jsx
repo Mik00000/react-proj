@@ -1,16 +1,19 @@
 import React from "react";
 import "./Header.css"
+import { Link } from "react-router-dom";
+
+
 function Header({name, menu}){
 
   return (
     <header>
-      <h2>{name}</h2>
+      <Link to="/"><h2>{name}</h2></Link>
       <ul>
       {menu.map((item)=>(
         <li>
-          <a href={item.url}>
+          <Link to={item.url}>
             {item.name}
-          </a>
+          </Link>
         </li>
       ))}
       </ul>
@@ -19,5 +22,5 @@ function Header({name, menu}){
     </header>
   );
 };
-
+// console.log(Header())
 export default Header;
